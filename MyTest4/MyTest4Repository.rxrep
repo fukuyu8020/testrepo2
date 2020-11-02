@@ -1,30 +1,30 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
-name="MyTest4Repository"
-id="84e1f942-62b2-47b2-a9a9-d521be46e2af">
-  <codegen
-  classname="MyTest4Repository"
-  namespace="MyTest4"/>
-  <rootfolder
-  name="Root"
-  id="2a50fe13-827b-44ea-96e9-2038521473db"
-  searchtimeout="30000ms"
-  capname="unknown"
-  isrooted="True"
-  usecache="True">
-      <appfolder
-          addcaps="container,webdocument"
-          capname="webdocument"
-          id="054f75c0-bc34-45ab-8144-0f620b031f25"
-          isrooted="True"
-          name="ApplicationUnderTest"
-          searchtimeout="30000ms"
-          usecache="False">
-          <basepath>
-              /dom[@domain='www.ranorex.com']
-          </basepath>
-          <icon>
-iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+﻿<repository
+id="84e1f942-62b2-47b2-a9a9-d521be46e2af"
+name="MyTest4Repository">
+	<codegen
+	classname="MyTest4Repository"
+	namespace="MyTest4">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="2a50fe13-827b-44ea-96e9-2038521473db"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="054f75c0-bc34-45ab-8144-0f620b031f25"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
 AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
 dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
 yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
@@ -37,9 +37,60 @@ lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
 zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
 8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
 F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
-          </icon>
-      </appfolder>
-      <basepath/>
-  </rootfolder>
-  <variables/>
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="bcb91b8f-2160-4a0a-9f1b-c288322c627f"
+		isrooted="True"
+		name="Test2IssueHash2Fukuyu8020Testrepo2"
+		refpath="/form[@title='test2 · Issue #2 · fukuyu8020/testrepo2 - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="f270b9af-5109-41f7-8254-ac24ea648bb6"
+			name="UsingGitGitHubWithRanorexEdgewor"
+			refimgid="260d74d0-d2b4-4847-a13b-0b0237130535"
+			refpath="/form[@title>'test2 · Issue #2 · fukuyu8020/testrepo2']/container/container/container[2]/container[1]/container[1]/tabpagelist/tabpage[@accessiblename>'Using Git &amp; GitHub with Ranorex']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'test2 &#183; Issue #2 &#183; fukuyu8020/testrepo2']/container[@accessiblename&gt;'test2 &#183; Issue #2 &#183; fukuyu8020/testrepo2']/container[@accessiblename='Google Chrome']/container[2]/container[1]/container[1]/?/?/tabpage[@accessiblename&gt;'Using Git &amp; GitHub with Ranorex']
+			</item>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="c868657d-108d-42d6-9f1f-d3507ff15ab5"
+			name="GitHubのissueを活用した個人アプリの開発手順を書いてみたQiit"
+			refimgid="838e0b2f-2f51-40ac-8d65-0225e5a4d223"
+			refpath="/form[@title>'Using Git &amp; GitHub with Ranorex']/container/container/container[2]/container[1]/container[1]/tabpagelist/tabpage[@accessiblename>'GitHubのissueを活用した、個人アプリの開発手順を書いてみた']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'test2 &#183; Issue #2 &#183; fukuyu8020/testrepo2']/container[@accessiblename&gt;'Using Git &amp; GitHub with Ranorex']/container[@accessiblename='Google Chrome']/container[2]/container[1]/container[1]/?/?/tabpage[@accessiblename&gt;'GitHub&#12398;issue&#12434;&#27963;&#29992;&#12375;&#12383;&#12289;&#20491;&#20154;&#12450;&#12503;&#12522;&#12398;&#38283;&#30330;&#25163;&#38918;&#12434;&#26360;&#12356;&#12390;&#12415;&#12383;']
+			</item>
+			<basepath>
+				/form[@title&gt;'test2 &#183; Issue #2 &#183; fukuyu8020/testrepo2']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKrSURBVDhPrY9fSBNxHMAHPtpDaWlZLZCisPK9
+9ObdqXNzujnX5aazpqKRkQ8qgQQJvVQajQgCbW428y3RSX/UoYiGVJv9sSm6u0KqUWRlDtvSu33p
+fr87hxG99YUP93Kfz/f7U/zXqc/I2MKWa5g5U0EvV6rmOKN6lTPkrbEGOsTp6eEZPdnYlJmeIv/+
+97yvt9k5kwbYUjWwJXkSelqEgmBRDgR1KhFi8fvgoFJWpLHmZya+qimzL5gKovGAcVOgWAzo5ICW
+gLfGgrGm9E2XZN+qZDzabAiIP0pyviSX6YC1FAlBEy0EjQTPGrN5tuQ4zxqO8ZyZcDOMIgEHDvRU
+91LtFhgykLBQkgvvzlXBfJ8Hej1crPPBR35ifGItNNIc/TpARMOPiEhkRBWJjhJL3MPcoziwz13D
+Ke9Ww8U6DUyLp873DYLpRhiK2sKguxaG4vYwzARDsP66GmL+PAkfBcI0bcUBUV5FAbLdDMPFJNqM
+ZUShGNBeDUODcwWWZ9tkORcH4AXVjAN7um1rIoCobS2Djv4PePOGjLDdXoEvgZtygJYCfqoFB9K6
+baHdoozY76wC57iPR9uRqLkifd3j34SfgWZBkhEkCP6cWhxQ3rMN73Kdgg0qh67D1MInOC+ejTa7
+xpZgZq4/9uu5Gm/G7/erBHijzcKBtM6KxlRnJaSK8k4cOQ3E/Qtw1tsBDV4XNHguwecprbwZBUiI
+TdOTLnvOVhxINGam7HBaF0VAogKzvasCkjotYB/Qxzfj032q5dYzygwsb0xHwKtUuqvGkIRI7irH
+HHQwsPgkf5NMLguzdYys/TnoklRHeU+Sw/Jjm8MCSXfM8NhbGMNv9qkE3kdPXq7fe1j+/R/DMAmH
+HCePJHeZraqeE42Rp1SL8IyqXX+pzYq/OT4KxW9HQeOvzs+EMAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
 </repository>
