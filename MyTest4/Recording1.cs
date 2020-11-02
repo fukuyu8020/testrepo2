@@ -79,6 +79,14 @@ namespace MyTest4
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Test2IssueHash2Fukuyu8020Testrepo2.UsingGitGitHubWithRanorexEdgewor' at 75;24.", repo.Test2IssueHash2Fukuyu8020Testrepo2.UsingGitGitHubWithRanorexEdgeworInfo, new RecordItemIndex(0));
+            repo.Test2IssueHash2Fukuyu8020Testrepo2.UsingGitGitHubWithRanorexEdgewor.Click("75;24");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Test2IssueHash2Fukuyu8020Testrepo2.GitHubのissueを活用した個人アプリの開発手順を書いてみたQiit' at 142;15.", repo.Test2IssueHash2Fukuyu8020Testrepo2.GitHubのissueを活用した個人アプリの開発手順を書いてみたQiitInfo, new RecordItemIndex(1));
+            repo.Test2IssueHash2Fukuyu8020Testrepo2.GitHubのissueを活用した個人アプリの開発手順を書いてみたQiit.Click("142;15");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

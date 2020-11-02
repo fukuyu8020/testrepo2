@@ -28,6 +28,7 @@ namespace MyTest4
     {
         static MyTest4Repository instance = new MyTest4Repository();
         MyTest4RepositoryFolders.ApplicationUnderTestAppFolder _applicationundertest;
+        MyTest4RepositoryFolders.Test2IssueHash2Fukuyu8020Testrepo2AppFolder _test2issuehash2fukuyu8020testrepo2;
 
         /// <summary>
         /// Gets the singleton class instance representing the MyTest4Repository element repository.
@@ -45,6 +46,7 @@ namespace MyTest4
             : base("MyTest4Repository", "/", null, 0, false, "2a50fe13-827b-44ea-96e9-2038521473db", ".\\RepositoryImages\\MyTest4Repository2a50fe13.rximgres")
         {
             _applicationundertest = new MyTest4RepositoryFolders.ApplicationUnderTestAppFolder(this);
+            _test2issuehash2fukuyu8020testrepo2 = new MyTest4RepositoryFolders.Test2IssueHash2Fukuyu8020Testrepo2AppFolder(this);
         }
 
 #region Variables
@@ -70,6 +72,15 @@ namespace MyTest4
         public virtual MyTest4RepositoryFolders.ApplicationUnderTestAppFolder ApplicationUnderTest
         {
             get { return _applicationundertest; }
+        }
+
+        /// <summary>
+        /// The Test2IssueHash2Fukuyu8020Testrepo2 folder.
+        /// </summary>
+        [RepositoryFolder("bcb91b8f-2160-4a0a-9f1b-c288322c627f")]
+        public virtual MyTest4RepositoryFolders.Test2IssueHash2Fukuyu8020Testrepo2AppFolder Test2IssueHash2Fukuyu8020Testrepo2
+        {
+            get { return _test2issuehash2fukuyu8020testrepo2; }
         }
     }
 
@@ -115,6 +126,98 @@ namespace MyTest4
                 get
                 {
                     return _selfInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The Test2IssueHash2Fukuyu8020Testrepo2AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("bcb91b8f-2160-4a0a-9f1b-c288322c627f")]
+        public partial class Test2IssueHash2Fukuyu8020Testrepo2AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _usinggitgithubwithranorexedgeworInfo;
+            RepoItemInfo _githubのissueを活用した個人アプリの開発手順を書いてみたqiitInfo;
+
+            /// <summary>
+            /// Creates a new Test2IssueHash2Fukuyu8020Testrepo2  folder.
+            /// </summary>
+            public Test2IssueHash2Fukuyu8020Testrepo2AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Test2IssueHash2Fukuyu8020Testrepo2", "/form[@title>'test2 · Issue #2 · fukuyu8020/testrepo2']", parentFolder, 30000, null, true, "bcb91b8f-2160-4a0a-9f1b-c288322c627f", "")
+            {
+                _usinggitgithubwithranorexedgeworInfo = new RepoItemInfo(this, "UsingGitGitHubWithRanorexEdgewor", "container[@accessiblename>'test2 · Issue #2 · fukuyu8020/testrepo2']/container[@accessiblename='Google Chrome']/container[2]/container[1]/container[1]/?/?/tabpage[@accessiblename>'Using Git & GitHub with Ranorex']", 30000, null, "f270b9af-5109-41f7-8254-ac24ea648bb6");
+                _githubのissueを活用した個人アプリの開発手順を書いてみたqiitInfo = new RepoItemInfo(this, "GitHubのissueを活用した個人アプリの開発手順を書いてみたQiit", "container[@accessiblename>'Using Git & GitHub with Ranorex']/container[@accessiblename='Google Chrome']/container[2]/container[1]/container[1]/?/?/tabpage[@accessiblename>'GitHubのissueを活用した、個人アプリの開発手順を書いてみた']", 30000, null, "c868657d-108d-42d6-9f1f-d3507ff15ab5");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("bcb91b8f-2160-4a0a-9f1b-c288322c627f")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("bcb91b8f-2160-4a0a-9f1b-c288322c627f")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UsingGitGitHubWithRanorexEdgewor item.
+            /// </summary>
+            [RepositoryItem("f270b9af-5109-41f7-8254-ac24ea648bb6")]
+            public virtual Ranorex.TabPage UsingGitGitHubWithRanorexEdgewor
+            {
+                get
+                {
+                    return _usinggitgithubwithranorexedgeworInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UsingGitGitHubWithRanorexEdgewor item info.
+            /// </summary>
+            [RepositoryItemInfo("f270b9af-5109-41f7-8254-ac24ea648bb6")]
+            public virtual RepoItemInfo UsingGitGitHubWithRanorexEdgeworInfo
+            {
+                get
+                {
+                    return _usinggitgithubwithranorexedgeworInfo;
+                }
+            }
+
+            /// <summary>
+            /// The GitHubのissueを活用した個人アプリの開発手順を書いてみたQiit item.
+            /// </summary>
+            [RepositoryItem("c868657d-108d-42d6-9f1f-d3507ff15ab5")]
+            public virtual Ranorex.TabPage GitHubのissueを活用した個人アプリの開発手順を書いてみたQiit
+            {
+                get
+                {
+                    return _githubのissueを活用した個人アプリの開発手順を書いてみたqiitInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The GitHubのissueを活用した個人アプリの開発手順を書いてみたQiit item info.
+            /// </summary>
+            [RepositoryItemInfo("c868657d-108d-42d6-9f1f-d3507ff15ab5")]
+            public virtual RepoItemInfo GitHubのissueを活用した個人アプリの開発手順を書いてみたQiitInfo
+            {
+                get
+                {
+                    return _githubのissueを活用した個人アプリの開発手順を書いてみたqiitInfo;
                 }
             }
         }
